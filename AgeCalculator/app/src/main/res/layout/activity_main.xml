@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:background="@color/bgColor"
+    android:orientation="vertical"
+    android:padding="8dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_your_age"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="in minutes"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_your_birth_date"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/darkGreen"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_date"
+        android:layout_marginTop="64dp"
+        android:textSize="23sp"
+        android:textColor="@color/darkblue"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/selected_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_02_06_2000"
+        android:layout_marginTop="5dp"
+        android:textSize="32sp"
+        android:textColor="@color/darkblue"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age_in_minutes"
+        android:layout_marginTop="64dp"
+        android:textSize="23sp"
+        android:textColor="@color/darkblue"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/age_in_minutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/_0000000000"
+        android:layout_marginTop="5dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/darkblue"
+        />
+
+
+</LinearLayout>
